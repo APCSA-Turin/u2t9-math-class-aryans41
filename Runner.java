@@ -5,9 +5,9 @@ public class Runner {
        
         System.out.print("Please enter the degree in radians: ");
         double radainValue = scan.nextDouble();
-        Double degrees = Math.toDegrees(radainValue); 
-        Double sine = Math.sin(radainValue);
-        Double cosine = Math.cos(radainValue);
+        double degrees = Math.toDegrees(radainValue); 
+        double sine = Math.sin(radainValue);
+        double cosine = Math.cos(radainValue);
 
         System.out.println(radainValue + " radians is approximately " + degrees + " degress");
         System.out.println("The sine of " + degrees + " degrees is " + sine); 
